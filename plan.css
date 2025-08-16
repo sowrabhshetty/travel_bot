@@ -1,0 +1,72 @@
+/* Keep plan.css for page-specific overrides only */
+
+h1, p {
+  color: #1f0303;
+}
+
+main {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  max-width: 900px;
+  margin: auto;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.form-group label, .form-label {
+  font-weight: 600;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0,123,255,0.3);
+  outline: none;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 14px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+}
+
+#results {
+  background-color: #f7f8fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.06);
+  min-height: 80px;
+}
+
+#results h4 {
+  margin-bottom: 12px;
+}
+
+#results ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+#results ul li {
+  font-size: 1rem;
+}
+
+/* Optional: animation utility for items */
+.animate-on-scroll:nth-child(odd) {
+  animation-delay: 0.2s;
+}
+.animate-on-scroll:nth-child(even) {
+  animation-delay: 0.4s;
+}
